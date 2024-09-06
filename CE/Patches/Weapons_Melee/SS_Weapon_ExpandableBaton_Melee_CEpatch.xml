@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--  -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>1.5</power>
+					<cooldownTime>1.2</cooldownTime>
+					<chanceFactor>0.15</chanceFactor>
+					<armorPenetrationBlunt>0.78</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+
+					<label>head</label>
+					<labelUsedInLogging>false</labelUsedInLogging>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9.5</power>
+					<cooldownTime>1.2</cooldownTime>
+
+					<armorPenetrationBlunt>3.56</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk> <!-- length: 17.5cm when collapsed ; As reference: Assaultrifle/spear: 10bulk longsword: 8-->
+			<MeleeCounterParryBonus>0.24</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.42</MeleeCritChance>
+				<MeleeParryChance>0.24</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+</Patch>

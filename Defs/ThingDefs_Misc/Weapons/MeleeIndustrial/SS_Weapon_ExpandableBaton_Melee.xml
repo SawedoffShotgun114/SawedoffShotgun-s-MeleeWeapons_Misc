@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Settings: (Rimworld humans average height: 175cm), so that baton's length:21 inch≈53.33...cm(expanded)/0.175m(collapsed). Can be considered as less-lethal weapon compares to mace. -->
+  <!-- As a less bulk mace that can be made on machinetable. DPS similar to mace(In Vanilla and CE):(weaker damage and armor penetration per attack, faster attack speed)-->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>SS_Weapon_ExpandableBaton_Melee</defName>
+    <label>expandable baton</label>
+    <description>A club engineered for efficient swinging and deadly impacts. Can collapse into a smaller, more compact form for easy carrying and storage, and specifically designed to extend quickly and automatically with a flick of the wrist or a press of a button.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Tex_ExpandableBaton</texPath>
+	  <drawSize>0.5</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.0</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>0.55</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>401</displayPriority>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<!--
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+	-->
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>3.75</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9.5</power>
+        <cooldownTime>1.2</cooldownTime>
+		<!--
+		<power>15.7</power>
+        <cooldownTime>2</cooldownTime>
+		-->
+		
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

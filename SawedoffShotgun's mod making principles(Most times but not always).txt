@@ -1,0 +1,14 @@
+# Universal mod making principle:
+
+1. Make things fit the Vanilla/CE and RealLife environment(20-21st century most). Avoid Defing Overpowered or Over-weakened things.
+2. Compared with Tynan, this author is a little bit more in sticking to the reallife, to the real datas, when comes to Thing stats Def(At the "1." basis).
+
+3. Write more and detailed comments(Defing things stats) at the Author's wish (A good habit. but not easy to insist on. \*shrug\*)
+
+...
+
+
+# Specific principle for this mod:
+
+KeyWorlds of this Mod:
+"Flexible"(Less weapon cooldown time and aiming time) or "Cheap" or "Anti-centipede"
