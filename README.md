@@ -92,17 +92,17 @@
  - ChineseSimplified
  - ChineseTraditional
 
-## FAQ:
- Q1: CE compatible?
- A1: CE compatible!
+## FAQ:    
+ Q1: CE compatible?    
+ A1: CE compatible!    
 
- Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.
- A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.    
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
 
- Q3: Why Powered-weapons were arranged into Pulse-charged munition tech? It was a melee weapon.
- A3: The author wanna keep research tab clean, def as less research item as possible.
+ Q3: Why Powered-weapons were arranged into Pulse-charged munition tech? It was a melee weapon.    
+ A3: The author wanna keep research tab clean, def as less research item as possible.    
 
-**("Starter Part" Above.)    
+**("Starter Part" Above.)        
 (If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**
 
 ------------------------------------------
