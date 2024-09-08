@@ -50,9 +50,35 @@
 		</value>
 	</Operation>
 
+
+
+	<!-- "Combat Extended Melee" Compatible -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Melee</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]/recipeMaker</xpath>
+			<value>
+				<recipeMaker>
+					<researchPrerequisite>CE_PoweredMelee</researchPrerequisite>
+				</recipeMaker>
+			</value>
+		</match>
+	</Operation>
+
+
+
+	<!--
+	MeleeWeaponMakeable_CE
+	PoweredMeleeWeaponMakeable_CE
+	-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]</xpath>
 		<value>
+			<generateCommonality>0.5</generateCommonality>
+			<equipmentType>Primary</equipmentType>
+
 			<equippedStatOffsets>
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<MeleeParryChance>0.4</MeleeParryChance>

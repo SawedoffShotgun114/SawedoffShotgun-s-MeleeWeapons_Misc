@@ -9,19 +9,22 @@
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/Tex_ExpandableBaton</texPath>
-	  <drawSize>0.5</drawSize>
+	  <drawSize>1.0</drawSize>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.0</uiIconScale>
     <techLevel>Industrial</techLevel>
     <costStuffCount>35</costStuffCount>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>0.55</Mass>
+      <WorkToMake>10000</WorkToMake> <!-- mace 6000 -->
+      <Mass>1.0</Mass>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>Machining</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>TableMachining</li>
+      </recipeUsers>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -37,6 +40,7 @@
 	-->
     <weaponClasses>
       <li>Melee</li>
+      <li>MeleeBlunt</li>
     </weaponClasses>
     <tools>
       <li>

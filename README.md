@@ -36,10 +36,12 @@
 
 ## Compatibility:
  "Mid-Game adding" compatible    
- Vanilla compatible    
 
  ==**!!CombatExtended(CE) Compatible!!**==    
 
+ ==**!!"Combat Extended Melee" Compatible!!**==
+
+ Vanilla compatible    
  CharacterEditor(CE) Compatible    
  CheatEngine(CE) may Compatible    
 
@@ -60,23 +62,25 @@
 
  BasicStats:
   Vanilla:
- | Weapons(All weapons in Normal quality, 100% HP) | mass     | bulk  | sharp penetration(HandlePoke/stab/slash) | blunt penetration(HandlePoke/stab/slash) | cooldown(HandlePoke/Stab/Slash) | Damage(HandlePoke/Stab/Slash) | WorkToMake(Vanilla/CE) | MarketValue | DPS (DamagePerSecond) |
- | ----------------------------------------------- | -------- | ----- | ---------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------------------- | ---------------------- | ----------- | --------------------- |
- | Steel Longsword                                 | 2        | 8     | 13%/34%/34%                              | 1/1/3.24                                 | 2/2.6/2.6                       | 9/23/23                       | 18000/18000            | 225         | 8.6                   |
- | **powered longsword**                           | **1.53** | **8** | **15.4/11.05**                           | **0.78/1.11/6.615**                      | **1.5/1.38/1.22**               | **4/18/40**                   | **42000/42000**        | 1920        | 29.08                 |
- | **ExpandableBaton**                             | **0.55** | **1** | **-**                                    | **5.6%/13%**                             | **1.2/1.2(head)**               | **3.75/9.5(head)**            | **10000/10000**        | 103         | 7.27                  |
- | Steel Mace                                      | 1.25     | 3.5   | -                                        | 13%/24%                                  | 1.2/1.2(head)                   | 9/15.7(head)                  | 6000/6000              | 117         | 7.02                  |
+
+| Weapons(All weapons in Normal quality, 100% HP) | mass     | bulk  | sharp penetration(HandlePoke/stab/slash) | blunt penetration(HandlePoke/stab/slash) | cooldown(HandlePoke/Stab/Slash) | Damage(HandlePoke/Stab/Slash) | WorkToMake(Vanilla/CE) | MarketValue | DPS (DamagePerSecond) | ResearchPrerequisite(TechNeed)                                                    |
+| ----------------------------------------------- | -------- | ----- | ---------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------------------- | ---------------------- | ----------- | --------------------- | --------------------------------------------------------------------------------- |
+| Steel Longsword                                 | 2        | 8     | 13%/34%/34%                              | -                                        | 2/2.6/2.6                       | 9/23/23                       | 18000/18000            | 225         | 8.6                   | Long Blades                                                                       |
+| **powered longsword**                           | **1.53** | **8** | **15.4/11.05**                           | -                                        | **1.5/1.38/1.22**               | **4/18/40**                   | **42000/42000**        | 1920        | 29.08                 | Pulse-Charged Munition (Vanilla) / Powered melee weapons(If "CE Melee" mod Added) |
+| **ExpandableBaton**                             | **0.55** | **1** | **-**                                    | **5.6%/13%**                             | **1.2/1.2(head)**               | **3.75/9.5(head)**            | **10000/10000**        | 103         | 7.27                  | Machining                                                                         |
+| Steel Mace                                      | 1.25     | 3.5   | -                                        | 13%/24%                                  | 1.2/1.2(head)                   | 9/15.7(head)                  | 6000/6000              | 117         | 7.02                  | Smithing                                                                          |
 
   CE:
-  | Weapons(All weapons in Normal quality, 100% HP)                       | mass     | bulk  | sharp penetration(stab/slash) (In CE) | blunt penetration(HandlePoke/stab/slash) (In CE) | cooldown(HandlePoke/Stab/Slash) | Damage(HandlePoke/Stab/Slash) | WorkToMake(Vanilla/CE) | MarketValue | DPS (DamagePerSecond)            |
-  | --------------------------------------------------------------------- | -------- | ----- | ------------------------------------- | ------------------------------------------------ | ------------------------------- | ----------------------------- | ---------------------- | ----------- | -------------------------------- |
-  | steel longsword                                                       | 2        | 8     | 2/0.72                                | 1/1/3.24                                         | 1.78/1.78/1.64                  | 4/18/40                       | 18000/18000            | 225         |                                  |
-  | steel gladius                                                         | 0.85     | 3.5   | 0.48/0.43                             | 0.43/0.43/0.96                                   | 1.44/1.44/1.34                  | 2/27/20                       | 12000/12000            | -           |                                  |
-  | MechGiantSword(Mech weapon)(From: SawedoffShotgun's Mechanoid_Combat) | 6.12     | 32    | 102.67/73.67                          | 5.2/7.33/44.1                                    | 1.5/1.38/1.22                   | 16/72/160                     | -                      | 8330        |                                  |
-  | powered shortsword(From: CE - Melee)(CE only)                         | 0.65     | 3.5   | 9.2/6.6                               | 0.33/0.47/1.96                                   | 1.35/1.12/1                     | 2/27/20                       | -/32000                | 885         |                                  |
-  | **powered longsword**                                                 | **1.53** | **8** | **15.4/11.05**                        | **0.78/1.11/6.615**                              | **1.5/1.38/1.22**               | **4/18/40**                   | **42000/42000**        | **1920**    | **approx x1.25 steel longsword** |
-  | **ExpandableBaton**                                                   | **0.55** | **1** | **-**                                 | **approx. 0.75x mace**                           | **1.2/1.2(head)**               | **1.5/9.5(head)**             | **10000/10000**        | **103**     | **a bit less than steel mace**   |
-  | Steel Mace                                                            | 1.25     | 3.5   | -                                     |                                                  |                                 |                               | 6000/6000              | 117         |                                  |
+
+| Weapons(All weapons in Normal quality, 100% HP)                                                 | mass     | bulk  | Sharp Penetration  (stab/slash) (In CE) (RHA) | Blunt Penetration  (HandlePoke/stab/slash)/(HandlePoke/Head) (In CE) (MPa) | Cooldown  (HandlePoke/Stab/Slash)/(HandlePoke/Head) | Damage  (HandlePoke/Stab/Slash)/(HandlePoke/Head) | WorkToMake(Vanilla/CE) | MarketValue | DPS (DamagePerSecond)          | ResearchPrerequisite(TechNeed)                                                    |
+| ----------------------------------------------------------------------------------------------- | -------- | ----- | --------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------- | ---------------------- | ----------- | ------------------------------ | --------------------------------------------------------------------------------- |
+| steel longsword                                                                                 | 2        | 8     | 2/0.72                                        | 1/1/3.24                                                                   | 1.78/1.78/1.64                                      | 4/18/40                                           | 18000/18000            | 225         | 16.54                          | Long Blades                                                                       |
+| steel gladius                                                                                   | 0.85     | 3.5   | 0.48/0.43                                     | 0.43/0.43/0.96                                                             | 1.44/1.44/1.34                                      | 2/27/20                                           | 12000/12000            | -           |                                | Smithing                                                                          |
+| MechGiantSword(Mech weapon) (From: SawedoffShotgun's Mechanoid_Combat) (unavailable for player) | 6.12     | 32    | 102.67/73.67                                  | 5.2/7.33/44.1                                                              | 1.5/1.38/1.22                                       | 16/72/160                                         | -                      | 8330        | 80.58                          | -                                                                                 |
+| powered shortsword(From: CE - Melee)(CE only)                                                   | 0.65     | 3.5   | 9.2/6.6                                       | 0.33/0.47/1.96                                                             | 1.35/1.12/1                                         | 2/27/20                                           | -/32000                | 885         |                                | Powered melee weapons ("CE Melee" mod Only)                                       |
+| **powered longsword**                                                                           | **1.53** | **8** | **15.4/11.05 (Can penetrate Armor Vest)**     | **0.78/1.11/6.615**                                                        | **1.5/1.38/1.22**                                   | **4/18/40**                                       | **42000/42000**        | **1920**    | 21.95                          | Pulse-Charged Munition (Vanilla) / Powered melee weapons(If "CE Melee" mod Added) |
+| **ExpandableBaton**                                                                             | **0.55** | **1** | **-**                                         | 0.78/3.56                                                                  | **1.2/1.2(head)**                                   | **1.5/9.5(head)**                                 | **10000/10000**        | **103**     | **a bit less than steel mace** | Machining                                                                         |
+| Steel Mace                                                                                      | 1.25     | 3.5   | -                                             | 0.63/5.63                                                                  |                                                     |                                                   | 6000/6000              | 117         |                                | Smithing                                                                          |
 
 ------------------------------------------
 
@@ -109,17 +113,31 @@
  - 202409
   - first public release on github. (CE patch finished)
 
-## Reference:
- (Placholder)
+## Reference:    
+ (Placeholder)
 
 **("Geek Part" Above)**
 
 ------------------------------------------
 
 ## FuturePlans(Maybe or Maynotbe):    
- - (Backlog) poleaxe (stab/slash):
- - (Backlog) Naginata (Thinner and lighter than normal , can stab/slash):
- - (Backlog) and powered version of all weapons in "FuturePlans"
+
+ (Note: The author gonna to make "Warcasket" and "Onehanded" contents first. If he have more times.)
+ Warcasket:    
+  - (Backlog) GiantSword    
+  - (Backlog) PoweredGiantSword    
+ One-handed:    
+  - (Backlog) Powered Knife    
+
+ Polearms(Stab/Slash): (Compares to Halberd)    
+  - (Backlog) Naginata    
+   (Per hit: Less damage, Less AP, Less cooldown time)    
+  - (Backlog) Glaive    
+   (Per hit: Bit More damage, Bit More AP, Bit More cooldown time)    
+  - (Backlog) poleaxe    
+   (Per hit: More damage, Bit More AP, More cooldown time)    
+
+ (And powered version of all weapons in "Polearms")    
 
 ## Credit:
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
@@ -142,10 +160,12 @@
  [SawedoffShotgun's Gun_Misc]()
  [SawedoffShotgun's Mechanoid_Combat]()
 
-## If you like my mods
- ~~Ko-fi me if you like(may motivate the author work faster)~~    
- ~~Patreon~~
-
- Commissions are not being accepted now.
+## If you love my mods    
+(may motivate the author work faster)    
+~~[Ko-fi me if you like]~~     
+~~[Afdian]~~    
+~~[Patreon]~~    
+    
+ Commissions are not being accepted now.    
 
 ![Preview](/About/Preview.png)

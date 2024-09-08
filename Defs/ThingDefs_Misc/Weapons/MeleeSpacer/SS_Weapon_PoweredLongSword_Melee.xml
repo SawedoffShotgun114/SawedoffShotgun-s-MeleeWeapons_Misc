@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- PoweredLongSword -->
+  <!-- Inspired by Chinese "Tang Dao"; Scale: 73.2:26.9.:3.2 ; length: 1m -->
+  <ThingDef ParentName="BaseWeapon">
+    <defName>SS_Weapon_PoweredLongSword_Melee</defName>
+    <label>powered long sword</label>
+    <description>A highly-advanced long sword. It was once collected by some middle-aged Glitterworld Sword-lovers, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+        <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredLongSword</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
+    </graphicData>
+
+    <techLevel>Spacer</techLevel>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponTags>
+        <li>LongSword</li>
+        <li>SpacerMelee</li>
+    </weaponTags>
+	<weaponClasses>
+        <li>Melee</li>
+        <li>MeleePiercer</li>
+	</weaponClasses>
+    <tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>
+
+    <relicChance>1</relicChance>
+    <thingSetMakerTags>
+        <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+	<statBases>
+      <!--
+      <MarketValue>2082</MarketValue> sincerely calculated
+      -->
+      <WorkToMake>48000</WorkToMake>
+      <Mass>1.53</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <costList> <!-- provisional -->
+      <Steel>24</Steel>
+      <Plasteel>95</Plasteel>
+      <ComponentIndustrial>14</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>220</displayPriority>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>ChargedShot</researchPrerequisite> <!--If CEMelee added ， use CE——Melee research-->
+    </recipeMaker>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.38</cooldownTime>
+      </li>
+      <li> <!-- steel longsword 23DMG, 2.6cooldown-->
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>1.22</cooldownTime>
+      </li>
+    </tools>
+
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

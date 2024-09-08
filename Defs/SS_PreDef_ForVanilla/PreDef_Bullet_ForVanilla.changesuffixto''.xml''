@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<!-- # Just cite as you wish. ========================================== -->
+
+<!-- # Like CombatExtended, I PreDefed some Bullet stats for vanilla(Below), then I call them in GunDefs(BulletDefs Part) ========================================== -->
+
+<!-- # DefaultBulletType: FMJ -->
+<!-- # How to calculate the stoppingPower, MPa in CE?/MuzzleEnergy? I use a mix of both. Roughly, by MuzzleEnergy(hereinafter called the "ft-lbf"),(.44mag:1250approx. , .303british:2400approx they have same "1" stoppingPower in game, *shrug*   1200ft-lbf=1stoppingPower?)(150 400 800 1200 2400...) ========================================== -->
+<!-- # FxxkingParadox, a 7.62x51 minigun and 7.62x51sniper 10-25 in vanilla ... ridiculous 6 10 17 25-->
+
+
+<!--explosionRadius: Accurate to one decimal place.  e.g. 4.2 -->
+
+
+
+<!-- ## Gun ammo ========================================== -->
+
+<!-- #### Bullet_22LR_FMJ (.22 LR FMJ) (StatReference: IRL(i.e. SurvivorRifle, etc. IRL)) ========================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_22LR_FMJ</defName>
+    <label>.22 LR(FMJ) bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>3.8</damageAmountBase>
+	  <stoppingPower>0.1</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+<!-- #### Bullet_9x19mmPara_FMJ (9x19mm Para FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) ========================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>SS_Vanilla_Bullet_9x19mmPara_FMJ</defName>
+		<label>9x19mm Para(FMJ) bullet</label>
+		<graphicData>
+		  <texPath>Things/Projectile/Bullet_Small</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		  <damageDef>Bullet</damageDef>
+		  <damageAmountBase>6</damageAmountBase>
+		  <stoppingPower>0.3</stoppingPower>
+		  <speed>55</speed>
+		</projectile>
+
+  </ThingDef>
+<!-- #### Bullet_9x19mmParaSD_FMJ (9x19mm Para Subsonic FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) ========================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_9x19mmParaSD_FMJ</defName>
+    <label>9x19mm ParaSD(FMJ) bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4.9</damageAmountBase>
+	  <stoppingPower>0.15</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+<!-- #### Bullet_45ACP_FMJ (.45ACP FMJ) (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) ========================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_45ACP_FMJ</defName>
+    <label>.45ACP(FMJ) bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+	  <stoppingPower>0.45</stoppingPower>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+<!-- #### (Obsolete?)   Bullet_5.56mx45NATO_FMJ (5.56x45mm NATO FMJ) as snipper...? (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) ========================================== -->
+	<ThingDef ParentName="BaseBullet">
+	  <defName>SS_Vanilla_Bullet_556x45mmNATO_FMJ</defName>
+	  <label>5.56x45mm NATO(FMJ) bullet</label>
+	  <graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	  </graphicData>
+	  <projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>18.75</damageAmountBase>
+	  <stoppingPower>0.85</stoppingPower>
+		<speed>70</speed>
+	  </projectile>
+	</ThingDef>
+<!-- ####(Thanks CE) Bullet_20x105mmCharged_AP (A high-caliber anti-material ammo) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_20x105mmCharged_AP</defName>
+    <label>20mm charge(conc.) blaster shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>41</damageAmountBase>
+	  <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.8</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+  
+<!-- #### Bullet_12Gauge_Buck   (StatReference:(Maybe...(i.e. ...))(Author buffed the shotgun's damage, but nuffed the armor-penetration ability) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_12Gauge_Buck</defName>
+    <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+
+<!-- ## Grenade/Rocket ammo ========================================== -->
+
+<!-- ### Single-use ========================================== -->
+<!-- #### Bullet_ChargeJavelin  (chagrejavelin overcharged 12mmchargedAP Projectile's Def) ========================================== -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>SS_Vanilla_Bullet_ChargeJavelin</defName>
+		<label>charge javelin Charged_vanilla</label>
+		<graphicData>
+		  <texPath>Things/Projectile/ChargeLanceShot</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.1</drawSize>
+		  <shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+		  <damageDef>Bomb</damageDef>
+		  <damageAmountBase>275</damageAmountBase>
+		  <stoppingPower>5</stoppingPower>
+		  <armorPenetrationBase>0.85</armorPenetrationBase>
+		  <explosionRadius>1.7</explosionRadius><!-- a 3*3 explode in game -->
+		  <speed>192</speed>
+		</projectile>
+	</ThingDef>
+<!-- #### Bullet_RPG-76  (RPG-76 HEAT Rocket Projectile's Def) ========================================== -->
+    <ThingDef ParentName="BaseBullet">
+      <defName>SS_Vanilla_Bullet_RPG-76Grenade_HEAT</defName>
+      <label>RPG-76 grenade_vanilla</label>
+      <graphicData>
+        <texPath>Things/Weapons/Projectile/Tex_Projectile_RPG-76</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1.0,1.0)</drawSize>
+        <shaderType>TransparentPostLight</shaderType>
+      </graphicData>
+      <thingClass>Projectile_Explosive</thingClass>
+      <projectile>
+        <damageDef>SS_Damage_RPG7grenadeExplosion</damageDef>
+        <damageAmountBase>300</damageAmountBase>
+        <stoppingPower>13</stoppingPower>
+        <armorPenetrationBase>1.5</armorPenetrationBase>
+        <explosionRadius>0.8</explosionRadius>
+        <speed>45</speed>
+      </projectile>
+    </ThingDef>
+
+<!-- ### Non Single-use ========================================== -->
+ 
+<!-- #### Bullet_40x46mmGrenade_HE (40x46mm grenade High-Explosive ; can anti-personnel) (StatReference:(...) FragGrenade InGame(but less damage) (i.e. ...)) ========================================== -->
+	<ThingDef ParentName="BaseBullet">
+	  <defName>SS_Vanilla_Bullet_40x46mmGrenade_HE</defName>
+	  <label>40x46mm grenade (HE)</label>
+	  <graphicData>
+	  <texPath>Things/Projectile/LauncherShot</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.85</drawSize>
+	  <shaderType>TransparentPostLight</shaderType>
+	  </graphicData>
+	  <thingClass>Projectile_Explosive</thingClass>
+	  <projectile>
+	  <speed>40</speed>
+	  <flyOverhead>true</flyOverhead>
+	  <damageDef>SS_Damage_GrenadeExplosion</damageDef>
+	  <damageAmountBase>20</damageAmountBase>
+	  <armorPenetrationBase>0.15</armorPenetrationBase> <!-- Buffed deliberately, atually should be 0.9 IMO-->
+	  <explosionRadius>1.7</explosionRadius>
+	  <ai_IsIncendiary>true</ai_IsIncendiary>
+	  <arcHeightFactor>5.5</arcHeightFactor>
+	  <shadowSize>0.6</shadowSize>
+	  </projectile>
+	</ThingDef>
+
+<!-- #### Bullet_RPG7Grenade_HEAT (RPG-7 HEAT) (May use as universal HEAT rocket ammo)========================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>SS_Vanilla_Bullet_RPG7Grenade_HEAT</defName>
+    <label>RPG-7 grenade (HEAT)</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+        <damageDef>SS_Damage_RPG7grenadeExplosion</damageDef>
+        <damageAmountBase>325</damageAmountBase> <!-- 1-2 shot 1 Centipede-->
+        <stoppingPower>14</stoppingPower>
+        <armorPenetrationBase>1.65</armorPenetrationBase>
+        <explosionRadius>0.9</explosionRadius>
+		<extraDamages>
+			<li>
+				<def>SS_Vanilla_FragmentDamage_HEAT</def>
+				<amount>10</amount>
+			</li>
+		</extraDamages>
+        <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+
+<!-- ## DamageDef (Base) =s========================================= -->
+
+<!-- #### HEAT explosives fragment-->
+	<DamageDef ParentName="Bullet">
+	    <defName>SS_Vanilla_FragmentDamage_HEAT</defName>
+	    <label>fragment injury</label>
+	    <minDamageToFragment>1.5</minDamageToFragment>
+	    <defaultArmorPenetration>0.18</defaultArmorPenetration>
+	</DamageDef>
+<!-- #### HEAT explosives ========================================== -->
+
+	<DamageDef ParentName="Bomb">
+		<defName>SS_Damage_RPG7grenadeExplosion</defName>
+		<defaultDamage>300</defaultDamage>
+		<armorCategory>Sharp</armorCategory>
+		<defaultStoppingPower>13</defaultStoppingPower>
+		<defaultArmorPenetration>1.6</defaultArmorPenetration>
+		<minDamageToFragment>15</minDamageToFragment>
+		<buildingDamageFactorImpassable>0.2</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.02</buildingDamageFactorPassable>
+		<plantDamageFactor>0.02</plantDamageFactor>
+		<corpseDamageFactor>0.02</corpseDamageFactor>
+	</DamageDef>
+<!-- #### FragmentBomb explosives ========================================== -->
+		<DamageDef ParentName="Bomb">
+		<defName>SS_Damage_GrenadeExplosion</defName>
+		<defaultDamage>50</defaultDamage>
+		<armorCategory>Sharp</armorCategory>
+		<defaultStoppingPower>0.5</defaultStoppingPower>
+		<defaultArmorPenetration>0.1</defaultArmorPenetration>
+		<minDamageToFragment>5</minDamageToFragment>
+		<buildingDamageFactorImpassable>0.75</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.5</buildingDamageFactorPassable>
+		<plantDamageFactor>0.25</plantDamageFactor>
+		<corpseDamageFactor>0.25</corpseDamageFactor>
+	</DamageDef>
+
+</Defs>

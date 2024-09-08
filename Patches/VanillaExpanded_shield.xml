@@ -1,5 +1,3 @@
-<!--
-
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationFindMod">
@@ -10,9 +8,7 @@
         <success>Always</success>
            <operations>
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/ThingDef[
-					defName="SS_Gun_FGC-9MKIIMini" or 
-					defName="SS_Gun_PirateGun"]</xpath>
+					<xpath>/Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]</xpath>
 					<value>
 						<modExtensions>
 							<li Class="VFECore.ThingDefExtension">
@@ -25,5 +21,3 @@
         </match>
     </Operation>
 </Patch>
-
--->

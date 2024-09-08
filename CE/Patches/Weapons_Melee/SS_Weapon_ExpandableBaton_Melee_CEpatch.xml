@@ -42,7 +42,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]</xpath>
+		<xpath>Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]</xpath>
 		<value>
 			<equippedStatOffsets>
 				<MeleeCritChance>0.42</MeleeCritChance>
