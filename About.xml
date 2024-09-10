@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>SawedoffShotgun's MeleeWeapons_Misc</name>
+	<author>SawedoffShotgun</author>
+	<url>https://github.com/AlohaOe114/SawedoffShotgun-s-Mech_Combat</url>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>SawedoffShotgun.Rimworld.MeleeWeapons.Misc</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+	    <li>brrainz.harmony</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+
+	<description>
+## A 100% XML Rimworld mod aims to add some new melee weapons that may fit reallife and Vanilla/CE game environment.
+ KeyWorlds of this Mod's specific contents(Show its feature or usage):   
+ (Placeholder)
+
+ "Meleeweapon, son"
+ 
+## Contents:
+ - Poweredlongsword:    
+ - ExpandableBaton:    
+ - poleaxe (slash):    
+ - Naginata ():    
+ 
+## QA:
+Q1: CE compatible?
+A1: CE compatible. And some interesting features and things are only for CE(Idw whether it have fully Vanilla Compatible one day)
+
+## Authors:
+SawedoffShotgun
+
+## Credits:
+**!!You - Love, Moral Support, Test and Feedback!!**
+
+Version: 1.0.0.1 (Rimworld 1.5 support)
+
+![Preview](/About/Preview.png)
+    </description>
+</ModMetaData>
