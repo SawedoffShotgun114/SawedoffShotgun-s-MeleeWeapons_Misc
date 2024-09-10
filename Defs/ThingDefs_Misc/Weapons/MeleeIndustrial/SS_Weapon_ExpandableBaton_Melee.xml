@@ -17,7 +17,7 @@
     <costStuffCount>35</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake> <!-- mace 6000 -->
-      <Mass>1.0</Mass>
+      <Mass>0.55</Mass>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
