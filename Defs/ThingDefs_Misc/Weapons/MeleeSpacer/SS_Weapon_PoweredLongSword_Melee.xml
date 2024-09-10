@@ -5,7 +5,7 @@
   <ThingDef ParentName="BaseWeapon">
     <defName>SS_Weapon_PoweredLongSword_Melee</defName>
     <label>powered long sword</label>
-    <description>A highly-advanced long sword. It was once collected by some middle-aged Glitterworld Sword-lovers, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.</description>
+    <description>A highly-advanced long sword, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.\n\n\n\nThat kind of weapon was once collected by some middle-aged Glitterworld Sword-lovers.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
         <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredLongSword</texPath>
@@ -69,7 +69,7 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
-    <tools>
+    <tools> <!-- In vanilla: AP≈1.5DMG, fine. -->
       <li>
         <label>handle</label>
         <capacities>
@@ -86,6 +86,8 @@
         </capacities>
         <power>18</power>
         <cooldownTime>1.38</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>
+
       </li>
       <li> <!-- steel longsword 23DMG, 2.6cooldown-->
         <label>edge</label>
@@ -94,6 +96,7 @@
         </capacities>
         <power>40</power>
         <cooldownTime>1.22</cooldownTime>
+        <armorPenetration>0.27</armorPenetration>
       </li>
     </tools>
 
