@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>SawedoffShotgun's MeleeWeapons_Misc</name>
+	<name>SawedoffShotgun's Mech_Combat</name>
 	<author>SawedoffShotgun</author>
 	<url>https://github.com/AlohaOe114/SawedoffShotgun-s-Mech_Combat</url>
 	<supportedVersions>
 		<li>1.5</li>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>SawedoffShotgun.Rimworld.MeleeWeapons.Misc</packageId>
+	<packageId>SawedoffShotgun.Rimworld.Mech.Combat</packageId>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
@@ -19,30 +19,76 @@
 	</loadAfter>
 
 	<description>
-## A 100% XML Rimworld mod aims to add some new melee weapons that may fit reallife and Vanilla/CE game environment.
- KeyWorlds of this Mod's specific contents(Show its feature or usage):   
+
+ - Since 20240826
+ - Version: 1.0.0.1 (Rimworld 1.5/1.4 support)
+
+## Description:
+
+ A 100% XML Rimworld mod aims to add some new combat mechanoids that may fit reallife and Vanilla/CE game environment.    
+ 
+KeyWorlds of this Mod's specific contents(Show its feature or usage):    
+ "Melee" or "Anti-centipede"    
+
+ "Kenny, Where's our new Baby Bots?", "Here."    
+
+## Compatibility:    
+ "Mid-Game adding" compatible    
+
+ ==**!!CombatExtended(CE) Compatible!!**==    
+
+ Vanilla compatible    
+ CharacterEditor(CE) Compatible    
+ CheatEngine(CE) may Compatible    
+
+## Features: (Introduction of content's Stats/Tech)
+
+ ##### Vanilla, but with CE patch:
+ - Executioner (Melee, Anti-Centipede)：    
+ (**Warning: It's likely can kill your colonist Pawn in a hit, so keep your distance with Executioner.**)
+ (**Warning: Before you download this mod, You'd better know how to fight Centipede(Rocketlauncher & EMP). Or you can just "cheerypicker(A mod can "delete" some things you don't want) it out."**)
+ An ultra-heavy but fast melee combat mechanoid with a Giant powered Plasma Sword Made for siegebreaking or melee combat and with a built-in shield bubble generator.  (2-3 attack 1 granite wall)
+
+ ##### CE Only:
  (Placeholder)
 
- "Meleeweapon, son"
- 
-## Contents:
- - Poweredlongsword:    
- - ExpandableBaton:    
- - poleaxe (slash):    
- - Naginata ():    
- 
-## QA:
-Q1: CE compatible?
-A1: CE compatible. And some interesting features and things are only for CE(Idw whether it have fully Vanilla Compatible one day)
+### [If you think some of the contents meaningless, I'd recommend "CherryPicker" mod to "delete" them specificly.(Original author: Owlchemist (o7) (https://steamcommunity.com/sharedfiles/filedetails/?id=2633276599))](https://steamcommunity.com/sharedfiles/filedetails/?id=3230046902)
+
+## FAQ:
+ Q1: CE compatible?
+ A1: CE compatible!
+
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", etc.
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.
+
+## Acknowledgement:
+ - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
+ - **[!! PlasmaBurst2 - Inspiration for Executioner in some extent !! (Click here to visit their sites)](https://www.plazmaburst2.com)**
 
 ## Authors:
-SawedoffShotgun
+ - SawedoffShotgun
 
-## Credits:
-**!!You - Love, Moral Support, Test and Feedback!!**
+## License:
+  Rimworld is owned by Tynan Sylvester.    
+  (CC BY-NC-ND 4.0)    
 
-Version: 1.0.0.1 (Rimworld 1.5 support)
+## Links/Contacts: (If you have any questions, please Email me.)
+ Contact Information:    
+  [Email(mainly): youngturksfree@outlook.com](mailto:youngturksfree@outlook.com)    
+  [Github: https://github.com/AlohaOe114](https://github.com/AlohaOe114)    
+ Ludeon: SawedoffShotgun
 
+## SeeAlso:(Other mods/pieces made by me)
+ [SawedoffShotgun's MeleeWeapons_Misc]()
+ [SawedoffShotgun's Gun_Misc]()
+
+## If you love my mods    
+(may motivate the author work faster)    
+~~[Ko-fi me if you like]~~     
+~~[Afdian]~~     
+~~[Patreon]~~     
+     
+Commissions are not being accepted now.     
 ![Preview](/About/Preview.png)
     </description>
 </ModMetaData>
