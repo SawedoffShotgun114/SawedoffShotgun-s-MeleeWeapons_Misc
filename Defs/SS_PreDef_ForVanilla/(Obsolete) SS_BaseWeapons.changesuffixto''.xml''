@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <ThingDef Name="SS_BaseWeapon" ParentName="BaseWeapon" Abstract="True">
-    <thingCategories Inherit="False">
-      <li>SS_BaseWeapon</li>
-    </thingCategories>
-  </ThingDef>
-</Defs>
