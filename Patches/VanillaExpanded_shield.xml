@@ -8,7 +8,7 @@
         <success>Always</success>
            <operations>
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]</xpath>
+					<xpath>/Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee" or defName="SS_Weapon_PoweredLongSword_Melee"]</xpath>
 					<value>
 						<modExtensions>
 							<li Class="VFECore.ThingDefExtension">
