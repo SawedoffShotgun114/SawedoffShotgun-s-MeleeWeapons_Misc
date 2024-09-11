@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!--  -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredZweihander_Melee"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<chanceFactor>0.25</chanceFactor>
+					<cooldownTime>1.87</cooldownTime>
+					<armorPenetrationBlunt>1.35</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>34</power>
+					<cooldownTime>1.87</cooldownTime>
+					<armorPenetrationBlunt>1.35</armorPenetrationBlunt>
+					<armorPenetrationSharp>24.64</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>53</power>
+					<cooldownTime>1.97</cooldownTime>
+					<armorPenetrationBlunt>5.000</armorPenetrationBlunt>
+					<armorPenetrationSharp>17.73</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredZweihander_Melee"]/statBases</xpath>
+		<value>
+			<Bulk>12.0</Bulk> <!-- length: 1.5m ; As reference: Assaultrifle/spear: 10bulk longsword: 8-->
+			<MeleeCounterParryBonus>0.8</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<!-- "Combat Extended Melee" Compatible -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended Melee</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredZweihander_Melee"]/recipeMaker</xpath>
+			<value>
+				<recipeMaker>
+					<researchPrerequisite>CE_PoweredMelee</researchPrerequisite>
+				</recipeMaker>
+			</value>
+		</match>
+	</Operation>
+
+	<!--
+	MeleeWeaponMakeable_CE
+	PoweredMeleeWeaponMakeable_CE
+	-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredZweihander_Melee"]</xpath>
+		<value>
+			<generateCommonality>0.1</generateCommonality>
+			<equipmentType>Primary</equipmentType>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.35</MeleeCritChance> <!-- should be 0.208, but... the author intentionallu buffed it.But ...  CE version's steel longsword Critchance = 0.5 (Incredible) -->
+				<MeleeParryChance>0.5</MeleeParryChance>
+				<MeleeDodgeChance>0.53</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredZweihander_Melee"]</xpath>
+		<value>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawOffset>0.27,0.27</DrawOffset>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

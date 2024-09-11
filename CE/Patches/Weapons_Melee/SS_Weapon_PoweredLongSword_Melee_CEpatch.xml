@@ -11,7 +11,7 @@
 						<li>Blunt</li>
 					</capacities>
 					<power>4</power>
-					<chanceFactor>0.1</chanceFactor>
+					<chanceFactor>0.2</chanceFactor>
 					<cooldownTime>1.5</cooldownTime>
 					<armorPenetrationBlunt>0.78</armorPenetrationBlunt>
 					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
@@ -76,9 +76,11 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]</xpath>
 		<value>
-			<generateCommonality>0.5</generateCommonality>
+			<generateCommonality>0.25</generateCommonality>
 			<equipmentType>Primary</equipmentType>
-
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
 			<equippedStatOffsets>
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<MeleeParryChance>0.4</MeleeParryChance>

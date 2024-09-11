@@ -44,6 +44,9 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SS_Weapon_ExpandableBaton_Melee"]</xpath>
 		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
 			<equippedStatOffsets>
 				<MeleeCritChance>0.42</MeleeCritChance>
 				<MeleeParryChance>0.24</MeleeParryChance>
