@@ -48,10 +48,12 @@
 ## Features: (Introduction of content's Stats/Tech)
 
  ##### Vanilla, but with CE patch:    
- - PoweredLongsword: (Anti-Pirate, If in CE, AP: 15RHA)    
-   A plasma longsword (If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make it more efficient than PoweredMace。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)    
- - ExpandableBaton:    
-   A more flexible baton,less damage per hit , DPS similar to Steel Mace.   
+ - PoweredLongsword: (Anti-Pirate and scyther, usableWithShields)      
+   A plasma longsword.     
+ - PoweredZweihander: (Anti-Centipede)      
+   A plasma sword made according to an ancient famous sword. (better than poweredlongsword，except price.)    
+ - ExpandableBaton:    (usableWithShields)      
+   A more flexible baton,less damage per hit , DPS similar to Steel Mace.    
 
 ##### CE Only:
  (Placeholder)
@@ -82,6 +84,18 @@
 | **ExpandableBaton**                                                                             | **0.55** | **1** | **-**                                         | 0.78/3.56                                                                  | **1.2/1.2(head)**                                   | **1.5/9.5(head)**                                 | **10000/10000**        | **103**     | **a bit less than steel mace** | **Machining**                                                                         |
 | Steel Mace                                                                                      | 1.25     | 3.5   | -                                             | 0.63/5.63                                                                  |                                                     |                                                   | 6000/6000              | 117         |                                | Smithing                                                                              |
 
+
+ Spoilers:
+
+<span style="background-color:black;">
+(If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make Powered Swords more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)
+;
+PoweredLongSword vs PoweredZweihander:
+Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)
+Fight Scyther ratio: 3(Longsword Win) / 2 
+Fight Pirate ratio: (Longsword Win)
+</span>
+
 ------------------------------------------
 
 ## Notes:
@@ -101,6 +115,9 @@
 
  Q3: Why Powered-weapons were arranged into Pulse-charged munition tech? It was a melee weapon.    
  A3: The author wanna keep research tab clean and simple, def as less research item as possible.    
+
+ Q4: These Powered weapons are too expensive, I'd rather to buy monosword with this money.
+ A4: Bro, Powered weapons ensured the ability of stably self-supplying High-ArmorPiercing weapons on Colony its own, after all, it may not always be possible to buy monosword, etc.    
 
 **("Starter Part" Above.)        
 (If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**
