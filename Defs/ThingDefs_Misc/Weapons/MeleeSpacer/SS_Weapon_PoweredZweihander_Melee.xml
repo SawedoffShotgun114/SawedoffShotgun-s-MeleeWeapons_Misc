@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- PoweredLongSword -->
-  <!-- Inspired by Chinese "Tang Dao"; Scale: 73.2:26.9.:3.2 ; length: 1m -->
+  <!-- PoweredZweihander -->
+  <!-- Aha, The author just found a truth: Zweihander is Vanilla Longsword * 1.5 in most respects(e.g. 2kg/3.2kg; ...) -->
   <ThingDef ParentName="BaseWeapon">
-    <defName>SS_Weapon_PoweredLongSword_Melee</defName>
+    <defName>SS_Weapon_PoweredZweihander_Melee</defName>
     <label>powered long sword</label>
-    <description>A highly-advanced long sword, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.\n\n\n\nThat kind of weapon was once collected by some middle-aged Glitterworld Sword-lovers.</description>
+    <description>A highly-advanced large sword made according to an ancient famous sword, the blade is coated in a field of ionized plasma, helping it cut through armor and slice enemy into pieces.\n\n\n\n *Zzz* *Scyther death moan* "You wield a sword really with the grace of an aristocrat." "I've heard Over-the-top praises like that a thousand times every time I "blocking the door", think some words more glowing."</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-        <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredLongSword</texPath>
+        <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredZweihander</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>1.2</drawSize>
+        <drawSize>1.28</drawSize>
     </graphicData>
 
     <techLevel>Spacer</techLevel>
@@ -38,24 +38,17 @@
     </thingSetMakerTags>
 	<statBases>
       <!--
-      (Obsolete: <MarketValue>2082</MarketValue> sincerely calculated)
+      (Obsolete)<MarketValue>3123</MarketValue> sincerely calculated
       -->
-      <WorkToMake>48000</WorkToMake>
-      <Mass>1.53</Mass>
+      <WorkToMake>62400</WorkToMake> <!-- Originally = Powered longsword * 1.5 =72000, but...now*1.3 -->
+      <Mass>2.45</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
-    <!-- "Combat Extended Melee"'s PoweredWeapons may too expensive, a powered melee weapon have almost same price with charged guns? So powered weapons made by the author were all cheaper.
-    Oringinally powered short sword *2.4 as below:
-    <Steel>24</Steel>
-    <Plasteel>95</Plasteel>
-    <ComponentIndustrial>14</ComponentIndustrial>
-    <ComponentSpacer>2</ComponentSpacer>
-    -->
-    <costList>
-      <Steel>24</Steel>
-      <Plasteel>60</Plasteel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <costList> <!-- Powered longsword * 1.6 -->
+      <Steel>38</Steel>
+      <Plasteel>96</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
 
     <recipeMaker>
@@ -69,31 +62,33 @@
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
-      <displayPriority>220</displayPriority>
+      <displayPriority>221</displayPriority>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>  <!--If CEMelee added ， use CE——Melee research: "CE_PoweredMelee" -->
+      <researchPrerequisite>ChargedShot</researchPrerequisite> <!--If CEMelee added ， use CE——Melee research: "CE_PoweredMelee"-->
     </recipeMaker>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
-    <tools> <!-- In vanilla: AP≈1.5DMG, fine. -->
+    <tools>
+      <!-- In vanilla: AP≈1.5DMG, fine. -->
+      <!-- cooldown= zweihander/1.075(or "/" 1.131) -->
       <li>
         <label>handle</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.5</cooldownTime>
-        <chanceFactor>0.2</chanceFactor>
+        <power>5</power>
+        <cooldownTime>1.87</cooldownTime>
+        <chanceFactor>0.25</chanceFactor>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>18</power>
-        <cooldownTime>1.38</cooldownTime>
-        <armorPenetration>0.6</armorPenetration>
+        <power>34</power>
+        <cooldownTime>1.87</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
 
       </li>
       <li> <!-- steel longsword 23DMG, 2.6cooldown-->
@@ -101,9 +96,9 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>40</power>
-        <cooldownTime>1.22</cooldownTime>
-        <armorPenetration>0.27</armorPenetration>
+        <power>53</power>
+        <cooldownTime>1.97</cooldownTime>
+        <armorPenetration>0.35</armorPenetration>
       </li>
     </tools>
 
