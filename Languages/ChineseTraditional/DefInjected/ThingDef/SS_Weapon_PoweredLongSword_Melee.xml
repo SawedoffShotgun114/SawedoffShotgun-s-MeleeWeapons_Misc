@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SS_Weapon_PoweredLongSword_Melee.label>充能長劒</SS_Weapon_PoweredLongSword_Melee.label>
+  <SS_Weapon_PoweredLongSword_Melee.description>一把可用於劈砍刺殺的高科技長劒，刀片上塗有一層電離等離子體，讓使用者更容易切開敵人的護甲。\n\n\n\n(此種武器曾經被一些閃耀世界的中秊刀劒愛好者收藏)</SS_Weapon_PoweredLongSword_Melee.description>
+  <SS_Weapon_PoweredLongSword_Melee.tools.0.label>劒柄</SS_Weapon_PoweredLongSword_Melee.tools.0.label>
+  <SS_Weapon_PoweredLongSword_Melee.tools.1.label>劒尖</SS_Weapon_PoweredLongSword_Melee.tools.1.label>
+  <SS_Weapon_PoweredLongSword_Melee.tools.2.label>劒刃</SS_Weapon_PoweredLongSword_Melee.tools.2.label>
+</LanguageData>

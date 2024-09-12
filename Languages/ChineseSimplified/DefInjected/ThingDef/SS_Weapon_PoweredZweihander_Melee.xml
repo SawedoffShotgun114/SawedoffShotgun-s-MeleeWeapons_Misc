@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SS_Weapon_PoweredZweihander_Melee.label>充能德式大剑</SS_Weapon_PoweredZweihander_Melee.label>
+  <SS_Weapon_PoweredZweihander_Melee.description>根据某款古代名剑采用新技术制作的先进大剑，剑刃上涂有电离等离子体领域，帮助它切开盔甲并将敌人切成两节。\n\n\n\n*电路短路声*, *飞螳死亡尖鸣* “您挥舞刀剑的样子颇有贵族风范。”“我每回'堵门'都能听到这样的彩虹屁。 这次想些更有意思的酸词儿吧。”</SS_Weapon_PoweredZweihander_Melee.description>
+  <SS_Weapon_PoweredZweihander_Melee.tools.0.label>剑柄</SS_Weapon_PoweredZweihander_Melee.tools.0.label>
+  <SS_Weapon_PoweredZweihander_Melee.tools.1.label>剑尖</SS_Weapon_PoweredZweihander_Melee.tools.1.label>
+  <SS_Weapon_PoweredZweihander_Melee.tools.2.label>剑刃</SS_Weapon_PoweredZweihander_Melee.tools.2.label>
+</LanguageData>

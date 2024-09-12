@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_SS_Weapon_ExpandableBaton_Melee.label>制作 甩棍</Make_SS_Weapon_ExpandableBaton_Melee.label>
+  <Make_SS_Weapon_ExpandableBaton_Melee.description>制作 甩棍</Make_SS_Weapon_ExpandableBaton_Melee.description>
+  <Make_SS_Weapon_ExpandableBaton_Melee.jobString>正在制作 甩棍</Make_SS_Weapon_ExpandableBaton_Melee.jobString>
+
+
+
+  <Make_SS_Weapon_PoweredLongSword_Melee.label>制作 充能长剑</Make_SS_Weapon_PoweredLongSword_Melee.label>
+  <Make_SS_Weapon_PoweredLongSword_Melee.description>制作 充能长剑</Make_SS_Weapon_PoweredLongSword_Melee.description>
+  <Make_SS_Weapon_PoweredLongSword_Melee.jobString>正在制作 充能长剑</Make_SS_Weapon_PoweredLongSword_Melee.jobString>
+
+  <Make_SS_Weapon_PoweredZweihander_Melee.label>制作 充能德式大剑</Make_SS_Weapon_PoweredZweihander_Melee.label>
+  <Make_SS_Weapon_PoweredZweihander_Melee.description>制作 充能德式大剑</Make_SS_Weapon_PoweredZweihander_Melee.description>
+  <Make_SS_Weapon_PoweredZweihander_Melee.jobString>正在制作 充能德式大剑</Make_SS_Weapon_PoweredZweihander_Melee.jobString>
+</LanguageData>

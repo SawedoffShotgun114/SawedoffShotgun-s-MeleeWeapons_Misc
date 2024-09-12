@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SS_Weapon_PoweredZweihander_Melee.label>充能德式大劒</SS_Weapon_PoweredZweihander_Melee.label>
+  <SS_Weapon_PoweredZweihander_Melee.description>根據某欵古代名劒埰用新技朮製作的先進大劒，劒刃上塗有電離等離子體領域，幚助牠切開盔甲竝將敵人切成兩節。\n\n\n\n*電路短路聲*, *飛螳死亡尖鳴* “您揮舞刀劒的樣子頗有貴族風範。”“我每廻'堵門'都能聽到這樣的綵虹屁。 這次想些更有意思的痠詞兒吧。”</SS_Weapon_PoweredZweihander_Melee.description>
+  <SS_Weapon_PoweredZweihander_Melee.tools.0.label>劒柄</SS_Weapon_PoweredZweihander_Melee.tools.0.label>
+  <SS_Weapon_PoweredZweihander_Melee.tools.1.label>劒尖</SS_Weapon_PoweredZweihander_Melee.tools.1.label>
+  <SS_Weapon_PoweredZweihander_Melee.tools.2.label>劒刃</SS_Weapon_PoweredZweihander_Melee.tools.2.label>
+</LanguageData>
