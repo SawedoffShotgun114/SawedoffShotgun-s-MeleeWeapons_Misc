@@ -75,7 +75,7 @@
 			<generateCommonality>0.1</generateCommonality>
 			<equipmentType>Primary</equipmentType>
 			<equippedStatOffsets>
-				<MeleeCritChance>0.35</MeleeCritChance> <!-- should be 0.208, but... the author intentionallu buffed it.But ...  CE version's steel longsword Critchance = 0.5 (Incredible) -->
+				<MeleeCritChance>0.30</MeleeCritChance> <!-- should be 0.208, but... the author intentionallu buffed it.But ...  CE version's steel longsword Critchance = 0.5 (Incredible) -->
 				<MeleeParryChance>0.5</MeleeParryChance>
 				<MeleeDodgeChance>0.53</MeleeDodgeChance>
 			</equippedStatOffsets>
