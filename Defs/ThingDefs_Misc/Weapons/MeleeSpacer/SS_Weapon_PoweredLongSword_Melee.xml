@@ -6,13 +6,13 @@
     <defName>SS_Weapon_PoweredLongSword_Melee</defName>
     <label>powered long sword</label>
     <description>A highly-advanced long sword, the blade is coated in a field of ionized plasma, helping it cut through enemy armor.\n\n\n\nThat kind of weapon was once collected by some middle-aged Glitterworld Sword-lovers.</description>
-    <possessionCount>1</possessionCount>
     <graphicData>
         <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredLongSword</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>1.2</drawSize>
     </graphicData>
-
+	
+	<possessionCount>1</possessionCount>
     <techLevel>Spacer</techLevel>
     <smeltable>false</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
@@ -32,7 +32,7 @@
       <li>WeaponMelee</li>
     </tradeTags>
 
-    <relicChance>1</relicChance>
+    <relicChance>2</relicChance>
     <thingSetMakerTags>
         <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>

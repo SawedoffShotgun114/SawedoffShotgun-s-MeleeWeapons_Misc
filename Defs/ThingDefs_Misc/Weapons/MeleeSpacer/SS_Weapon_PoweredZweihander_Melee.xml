@@ -4,15 +4,16 @@
   <!-- Aha, The author just found a truth: Zweihander is Vanilla Longsword * 1.5 in most respects(e.g. 2kg/3.2kg; ...) -->
   <ThingDef ParentName="BaseWeapon">
     <defName>SS_Weapon_PoweredZweihander_Melee</defName>
-    <label>powered long sword</label>
+    <label>powered zweihander</label>
     <description>A highly-advanced large sword made according to an ancient famous sword, the blade is coated in a field of ionized plasma, helping it cut through armor and slice enemy into pieces.\n\n\n\n *Zzz* *Scyther death moan* "You wield a sword really with the grace of an aristocrat." "I've heard Over-the-top praises like that a thousand times every time I "blocking the door", think some words more glowing."</description>
-    <possessionCount>1</possessionCount>
+
     <graphicData>
         <texPath>Things/Item/Equipment/WeaponMelee/Tex_PoweredZweihander</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>1.28</drawSize>
     </graphicData>
 
+	<possessionCount>1</possessionCount>
     <techLevel>Spacer</techLevel>
     <smeltable>false</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
@@ -32,7 +33,7 @@
       <li>WeaponMelee</li>
     </tradeTags>
 
-    <relicChance>1</relicChance>
+    <relicChance>2</relicChance>
     <thingSetMakerTags>
         <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
