@@ -68,6 +68,12 @@
 	</Operation>
 
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PoweredLongSword_Melee"]/weaponTags</xpath>
+		<value>
+			<li>CE_OneHandedWeapon</li>
+		</value>
+	</Operation>
 
 	<!--
 	MeleeWeaponMakeable_CE
@@ -78,9 +84,6 @@
 		<value>
 			<generateCommonality>0.25</generateCommonality>
 			<equipmentType>Primary</equipmentType>
-			<weaponTags>
-				<li>CE_OneHandedWeapon</li>
-			</weaponTags>
 			<equippedStatOffsets>
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<MeleeParryChance>0.4</MeleeParryChance>
