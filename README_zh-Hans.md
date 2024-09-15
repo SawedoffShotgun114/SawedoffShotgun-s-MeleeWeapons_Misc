@@ -36,9 +36,9 @@
 # 特性：
 
  #### Vanilla，但有 CE 补丁：   
- - 充能长剑 (反海盗，单手持握);   
+ - 充能长剑 (反飞螳(同时也可反蜈蚣)，较泛用，单手持握);   
    一把等离子长剑    
- - 充能德式大剑 (反飞螳)    
+ - 充能德式大剑 (专业反蜈蚣，但对付非重装甲目标的效率低)    
    一把参考了古代某个经典武器的形制而做的等离子大剑 (比充能长剑还强，除了价格)    
  - 甩棍 (单手持握)    
    更灵活的棍棒，相较于钉头锤，其每击具有更低的冷却时间与更低的伤害，DPS比钢钉头锤略高。    
@@ -59,26 +59,26 @@
 
   CE数据：
 
-| 武器                                                             | 质量       | 体积    | 锐器穿透(武器握柄/刺/劈砍)                           | 钝器穿透(武器握柄/刺/劈砍)     | 冷却时间(武器握柄/刺/劈砍)   | 每击伤害(武器握柄/刺/劈砍)   | WTM(再除以60就是工作量) | 市场价值     | 平均每秒伤害    | 科技需求                                                                 |
-|----------------------------------------------------------------| -------- | ----- | ----------------------------------------- |---------------------| ----------------- | ----------------- | --------------- | -------- |-----------|----------------------------------------------------------------------|
-| 铁长剑                                                            | 2        | 8     | 2/0.72                                    | 1/1/3.24            | 1.78/1.78/1.64    | 4/18/40           | 18000/18000     | 225      | 16.54     | 长剑                                                                   |
-| PoweredShortSword充能短剑(来自: CE - 近战扩展)(CE only)                  | 0.65     | 3.5   | 9.2/6.6                                   | 0.33/0.47/1.96      | 1.35/1.12/1       | 2/27/20           | -/32000         | 885      | 19.54     | 动力近战武器Powered melee weapons(如果安装了"CE - 近战扩展"的mod)                    |
-| **充能长剑**                                                       | **1.53** | **8** | **15.4/11.05 (Can penetrate Armor Vest)** | **0.78/1.11/6.615** | **1.5/1.38/1.22** | **4/18/40**       | **42000/42000** | **1920** | **21.95** | **电荷弹(如果在原版环境) / 动力近战武器Powered melee weapons(如果安装了"CE - 近战扩展"的mod)** |
-| **甩棍**                                                         | **0.55** | **1** | **-**                                     | **0.78/3.56**       | **1.2/1.2(head)** | **1.5/9.5(head)** | **10000/10000** | **103**  | **7.05**  | **机械加工**                                                             |
-| 铁短剑                                                            | 0.85     | 3.5   | 0.48/0.43                                 | 0.43/0.43/0.96      | 1.44/1.44/1.34    | 2/27/20           | 12000/12000     | -        | 14.65     | 锻造                                                                   |
-| 铁钉头锤                                                           | 1.25     | 3.5   | -                                         | 0.63/5.63           |                   |                   | 6000/6000       | 117      | 6.25      | 锻造                                                                   |
-| 机械族巨剑(机械族专武) (来自: SawedoffShotgun's Mechanoid_Combat) (玩家无法获得) | 6.12     | 32    | 102.67/73.67                              | 5.2/7.33/44.1       | 1.5/1.38/1.22     | 16/72/160         | -               | 8330     | 80.58     | -                                                                    |
+| 武器                                                                   | 质量       | 体积    | 锐器穿透(武器握柄/刺/劈砍)                           | 钝器穿透(武器握柄/刺/劈砍)     | 冷却时间(武器握柄/刺/劈砍)   | 每击伤害(武器握柄/刺/劈砍)   | WTM(再除以60就是工作量) | 市场价值     | 平均每秒伤害    | 科技需求                                                                 |
+|----------------------------------------------------------------------| -------- | ----- | ----------------------------------------- |---------------------| ----------------- | ----------------- | --------------- | -------- |-----------|----------------------------------------------------------------------|
+| 铁长剑                                                                  | 2        | 8     | 2/0.72                                    | 1/1/3.24            | 1.78/1.78/1.64    | 4/18/40           | 18000/18000     | 225      | 16.54     | 长剑                                                                   |
+| PoweredShortSword充能短剑(来自: CE - 近战扩展)(CE only)                        | 0.65     | 3.5   | 9.2/6.6                                   | 0.33/0.47/1.96      | 1.35/1.12/1       | 2/27/20           | -/32000         | 885      | 19.54     | 动力近战武器Powered melee weapons(如果安装了"CE - 近战扩展"的mod)                    |
+| **充能长剑**                                                             | **1.53** | **8** | **15.4/11.05 (Can penetrate Armor Vest)** | **0.78/1.11/6.615** | **1.5/1.38/1.22** | **4/18/40**       | **42000/42000** | **1920** | **21.95** | **电荷弹(如果在原版环境) / 动力近战武器Powered melee weapons(如果安装了"CE - 近战扩展"的mod)** |
+| **甩棍**                                                               | **0.55** | **1** | **-**                                     | **0.78/3.56**       | **1.2/1.2(head)** | **1.5/9.5(head)** | **10000/10000** | **103**  | **7.05**  | **机械加工**                                                             |
+| 铁短剑                                                                  | 0.85     | 3.5   | 0.48/0.43                                 | 0.43/0.43/0.96      | 1.44/1.44/1.34    | 2/27/20           | 12000/12000     | -        | 14.65     | 锻造                                                                   |
+| 铁钉头锤                                                                 | 1.25     | 3.5   | -                                         | 0.63/5.63           |                   |                   | 6000/6000       | 117      | 6.25      | 锻造                                                                   |
+| 机械族巨剑(机械族/战棺 专武) (来自: SawedoffShotgun's Mechanoid_Combat) (玩家暂时无法获得) | 6.12     | 32    | 102.67/73.67                              | 5.2/7.33/44.1       | 1.5/1.38/1.22     | 16/72/160         | -               | 8330     | 80.58     | -                                                                    |
 
 
-可能剧透:
+可能有剧透:
 
 <span style="background-color:black;">
-（如果在 CE 环境中，“锐器暴击无视护甲”功能会使其能使其杀蜈蚣的效率比PoweredMaul(充能大槌，属于"Combat Extended Melee" Mod)还高，（瞄准头部模式））。
+（如果在 CE 环境中，“锐器暴击无视护甲”功能会使大部分动力锐器(除了PoweredShortSword(动力短剑)和更小的充能武器)的击杀蜈蚣的效率比PoweredMaul(充能大槌，属于"Combat Extended Melee" Mod)还高，（瞄准头部模式））。
 ;
 充能长剑 vs 充能德式大剑:
-击杀蜈蚣的速率: 7.5(长剑) /10(德式大剑赢)
+击杀蜈蚣的速率: 7.5(长剑) / 10(德式大剑赢)
 杀飞螳速率: 3(长剑赢) / 2 
-杀海盗速率: (长剑赢)
+杀海盗(半数着防弹衣)速率: 2(长剑赢) / 1(德式大剑(使用砍身子瞄准模式，反正砍哪里都是一刀秒))
 </span>
 
 
@@ -144,7 +144,7 @@
 
 ## 版权/许可:
  Rimworld is owned by Tynan Sylvester.    
- (CC BY-NC-ND 4.0)
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
 ## 联系方式: (如遇问题，请联系作者电子邮箱)
  联系方式:  
