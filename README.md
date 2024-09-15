@@ -132,10 +132,10 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
 
 ## UpdateLog:    
  - v1,0.0.6
-  - NewWeapon: PoweredZweihander
-  - TransImproved and StatsTweak 
+   NewWeapon: PoweredZweihander
+   TransImproved and StatsTweak 
  - v1.0.0.4    
-  - First public release on github.        
+   First public release on github.        
 
 ## Reference:    
  (Placeholder)

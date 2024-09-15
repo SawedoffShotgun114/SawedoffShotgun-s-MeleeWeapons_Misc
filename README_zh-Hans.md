@@ -114,11 +114,11 @@
  暂时未知(截至 20240916)
 
 ## 更新日志:
- - v1,0.0.6
-  - NewWeapon: PoweredZweihander
-  - TransImproved and StatsTweak
- - v1.0.0.4
-  - First public release on github.
+ - v1,0.0.6    
+   新武器： 充能德式大剑（Zweihander）    
+   更新优化，武器数据微调
+ - v1.0.0.4     
+   第一次于Github正式发布的版本    
 
  
 ## 作者的未来计划:
