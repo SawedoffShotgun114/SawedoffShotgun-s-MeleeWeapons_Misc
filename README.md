@@ -23,7 +23,7 @@
 ------------------------------------------
 
  - Since 20240906
- - Version: 1.0.0.1 (Rimworld 1.5/1.4 support)
+ - Version: 1.0.0.6 (Rimworld 1.5/1.4 support)
 
 ## Description:
 
@@ -39,7 +39,7 @@
 
  ==**!!CombatExtended(CE) Compatible!!**==    
 
- ==**!!"Combat Extended Melee" Compatible!!**==
+ ==**!!"Combat Extended Melee" Compatible!!**==    
 
  Vanilla compatible    
  CharacterEditor(CE) Compatible    
@@ -89,15 +89,15 @@
 
  Spoilers Warning:   
 
-<span style="background-color:black;">
-(If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make most Powered sharp melee weapons(except PoweredShortSword) more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)
-;
-PoweredLongSword vs PoweredZweihander:
-Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)
-Fight Scyther ratio: 3(Longsword Win) / 2 
-Fight Pirate(half of them have ArmoredVest) ratio: (Longsword Win)
-Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) / 0.9(Zweihander; aim body)
-</span>
+<span style="background-color:black;">    
+(If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make most Powered sharp melee weapons(except PoweredShortSword) more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)    
+    
+PoweredLongSword vs PoweredZweihander:    
+Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)    
+Fight Scyther ratio: 3(Longsword Win) / 2     
+Fight Pirate(half of them have ArmoredVest) ratio: (Longsword Win)    
+Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) / 0.9(Zweihander; aim body)    
+</span>    
 
 ------------------------------------------
 
@@ -128,13 +128,14 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
 ------------------------------------------
 
 ## KnownIssues:
- Unknown(By 20240907)
+ Unknown(By 20240916)
 
-## UpdateLog:
- - 202409
-  - first public pre-release on github. (Official CE patch coming soon)
- - 202409
-  - first public release on github. (CE patch finished)
+## UpdateLog:    
+ - v1,0.0.6
+  - NewWeapon: PoweredZweihander
+  - TransImproved and StatsTweak 
+ - v1.0.0.4    
+  - First public release on github.        
 
 ## Reference:    
  (Placeholder)
@@ -158,7 +159,7 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
   - (Backlog) Glaive    
    (Per hit: Bit More damage, Bit More AP, Bit More cooldown time)    
   - (Backlog) poleaxe    
-   (Per hit: More damage, Bit More AP, More cooldown time)    
+   (Per hit: Bit More damage, More AP, More cooldown time)    
 
  (And powered version of all weapons in "Polearms")    
 
