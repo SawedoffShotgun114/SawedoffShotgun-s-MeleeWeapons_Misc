@@ -3,14 +3,14 @@
   <h1 align="right">SawedoffShot's Mechanoid_Combat</h1>
 </p>
 
-<p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
-    <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
-  </a>
-  <a href="mailto:youngturksfree@outlook.com">
-    <img src="https://img.shields.io/badge/-电邮%20联系作者-blue?style=for-the-badge&logo=mail">
-  </a>
-</p>
+<p align="right">  
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-(Placeholder)/releases">  
+    <img src="https://img.shields.io/badge/-Github发布页(获取最新版本)-gray?style=for-the-badge&logo=github">  
+  </a>  
+  <a href="mailto:youngturksfree@outlook.com">  
+    <img src="https://img.shields.io/badge/-电邮联系我们-blue?style=for-the-badge&logo=mail">  
+  </a>  
+</p>  
 
 
  - 自 20240826
@@ -28,6 +28,7 @@
  游戏中途加入-安全    
  
  ==**!!CombatExtended(CE) Compatible/CE兼容!!**==    
+ ==**!!CombatExtendedMelee(CE) Compatible/CE近战武器mod兼容!!**==    
 
  原版Core兼容    
  人物编辑器(CharacterEditor)(CE)兼容     
@@ -105,8 +106,8 @@
  Q4: 这些充能武器造价太贵了，有这钱我不如去买单分子剑呢    
  A4: 亲，这种充能武器能确保殖民地能够自行稳定量产高穿甲武器呢，毕竟有时不一定能买得到单分子剑什么的玩意呢。    
 
-**（上文为“入门部分”。）
-（如果这是您第一次使用此 mod，那您可以在此处停止阅读，然后去玩“边缘世界”了。**
+**（上文为“入门部分”。）    
+（如果这是您第一次使用此 mod，那您可以在此处停止阅读，然后去玩“边缘世界”了。**    
 
 ------------------------------------------
 
@@ -122,11 +123,17 @@
 
  
 ## 作者的未来计划:
- (注：如果作者有更多时间的话，他希望先制作 “战棺 ”和 “单手武器”的内容。）    
- 战棺：
-  - （积压） 巨剑
+ (注：作者希望先制作 “非致命” “战棺 ”和 “单手武器”的内容，如果还有时间的话。）    
+
+ 非致命：    
+  - （积压） 电击防暴叉 （几乎无伤害，但大概率附加击倒（stun）效果）    
+  - （积压） 聚碳酸酯长警棍 （1.8m长，伤害比一般长棍小，但附加额外疼痛）   
+
+ 战棺：    
+  - （积压） 巨剑    
   - （积压） 充能巨剑（）    
- 单手：
+
+ 单手：    
   - （积压） 动力匕首    
 
  长杆武器（刺/砍）：（与戟相比的话：）    
@@ -139,7 +146,7 @@
 
  (以及 “长杆武器”中所有武器的充能版本）   
 
-## 致谢:
+## 致谢: （排名不分先后）
  - **!! 感谢所有社区贡献者与社区享受者，和你 - 鼓励支持与bug反馈 !!**    
  - **[!! Combat Extended Melee（战斗扩展-近战武器） - 灵感来源之一 !! (点此访问他们的页面)](https://steamcommunity.com/sharedfiles/filedetails/?id=1924933379)**    
 

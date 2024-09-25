@@ -5,10 +5,10 @@
 
 <p align="right">
   <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
-    <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="mailto:youngturksfree@outlook.com">
-    <img src="https://img.shields.io/badge/-Email%20me-blue?style=for-the-badge&logo=mail">
+    <img src="https://img.shields.io/badge/-Email%20us-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
 
@@ -89,15 +89,15 @@
 
  Spoilers Warning:   
 
-<span style="background-color:black;">    
-(If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make most Powered sharp melee weapons(except PoweredShortSword) more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)    
+  <span style="background-color:black;">    
+  (If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make most Powered sharp melee weapons(except PoweredShortSword) more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)    
     
-PoweredLongSword vs PoweredZweihander:    
-Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)    
-Fight Scyther ratio: 3(Longsword Win) / 2     
-Fight Pirate(half of them have ArmoredVest) ratio: (Longsword Win)    
-Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) / 0.9(Zweihander; aim body)    
-</span>    
+  PoweredLongSword vs PoweredZweihander:    
+  Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)    
+  Fight Scyther ratio: 3(Longsword Win) / 2     
+  Fight Pirate(half of them have ArmoredVest) ratio: (Longsword Win)    
+  Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) / 0.9(Zweihander; aim body)    
+  </span>    
 
 ------------------------------------------
 
@@ -105,9 +105,9 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
  As the Author strange to Vanilla combat system, Weapon Stats for Vanilla version may not so banlanced.
 
 ## Languages:
- - English
- - ChineseSimplified
- - ChineseTraditional
+ - English    
+ - ChineseSimplified    
+ - ChineseTraditional    
 
 ## FAQ:    
  Q1: CE compatible?    
@@ -119,7 +119,7 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
  Q3: Why Powered-weapons were arranged into Pulse-charged munition tech? It was a melee weapon.    
  A3: The author wanna keep research tab clean and simple, def as less research item as possible.    
 
- Q4: These Powered weapons are too expensive, I'd rather to buy monosword with this money.
+ Q4: These Powered weapons are too expensive, I'd rather to buy monosword with this money.    
  A4: Bro, Powered weapons ensured the ability of stably self-supplying High-ArmorPiercing weapons on Colony its own, after all, it may not always be possible to buy monosword, etc.    
 
 **("Starter Part" Above.)        
@@ -146,10 +146,15 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
 
 ## FuturePlans(Maybe or Maynotbe):    
 
- (Note: The author gonna to make "Warcasket" and "Onehanded" contents first. If he have more times.)
+ (Note: The author gonna to make "Warcasket" and "Onehanded" contents first. If he have more times.)    
+ Non-lethal:    
+  - (Backlog) taser Anti-Riot Fork(almost no damage, but frequently stun)    
+  - (Backlog) Polycarbonate LongStaff (1.8m, less damage but extra pain)    
+
  Warcasket:    
   - (Backlog) GiantSword    
   - (Backlog) PoweredGiantSword(Stats may similar to MechGiantSword(From the author's other mod))    
+
  One-handed:    
   - (Backlog) Powered Knife    
 
@@ -163,7 +168,7 @@ Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) 
 
  (And powered version of all weapons in "Polearms")    
 
-## Acknowledgement:
+## Acknowledgement: (In no particular order)    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
  - **[!! Combat Extended Melee - Inspired me to some extent !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=1924933379)**    
 
