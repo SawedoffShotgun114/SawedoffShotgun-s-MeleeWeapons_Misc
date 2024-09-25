@@ -14,7 +14,8 @@
 
 
 # Another languages of README:(Please Click hyperlinks below)
- - [点此可阅读中文版README(简介)](README_zh-Hans.md)
+ - [点此可阅读简体中文版README(简介)](README_zh-Hans.md)    
+ - [點此可閱讀繁體中文版README(簡介)](README_zh-Hant.md)    
 
 # Disclaimer
  - This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    

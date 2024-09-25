@@ -1,6 +1,6 @@
 <p>
   <img src="About/SS_Icon.png" height="128" align="left">
-  <h1 align="right">SawedoffShot's Mechanoid_Combat</h1>
+  <h1 align="right">SawedoffShot's MeleeWeapons_Misc</h1>
 </p>
 
 <p align="right">  
