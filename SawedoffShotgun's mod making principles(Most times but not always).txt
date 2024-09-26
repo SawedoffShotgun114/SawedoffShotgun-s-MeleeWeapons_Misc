@@ -1,3 +1,10 @@
+# Specifically:
+ powered version 's crit chance = x1.3 medival version
+ /*
+ Poweredshortsword Critchance = 0.26, steel gladius Critchance= 0.2
+ CE version's steel longsword Critchance = 0.5 (Incredible)
+ */
+
 # Universal mod making principle:
 
 1. Make things fit the Vanilla/CE and RealLife environment(20-21st century most). Avoid Defing Overpowered or Over-weakened things.
@@ -5,6 +12,8 @@
 
 3. Write more and detailed comments(Defing things stats) at the Author's wish (A good habit. but not easy to insist on. \*shrug\*)
 
+4. Technical Details
+  - Def a thing's marketvalue reasonably even that weapon is not unobtainable to Players (E.g. In "Empire" mod, players can arm your allies with powerful and exotic mod weapons in a very cheap price cause that weapon have no marketvalue defined.)
 ...
 
 
