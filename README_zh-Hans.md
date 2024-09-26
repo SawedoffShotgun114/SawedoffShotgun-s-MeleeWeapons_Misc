@@ -4,7 +4,7 @@
 </p>
 
 <p align="right">  
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-(Placeholder)/releases">  
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc/releases">
     <img src="https://img.shields.io/badge/-Github发布页(获取最新版本)-gray?style=for-the-badge&logo=github">  
   </a>  
   <a href="mailto:youngturksfree@outlook.com">  
