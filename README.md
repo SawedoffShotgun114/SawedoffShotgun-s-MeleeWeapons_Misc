@@ -4,10 +4,10 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc/releases">
+  <a href="https://github.com/SawedoffShotgun114/SawedoffShotgun-s-MeleeWeapons_Misc/releases">
     <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
-  <a href="mailto:youngturksfree@outlook.com">
+  <a href="mailto:chaconnejay@outlook.com">
     <img src="https://img.shields.io/badge/-Email%20us-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
@@ -93,10 +93,10 @@
   <span style="background-color:black;">    
   (If in CE, "Sharp melee weapon CritHitIgnoreArmor" feature make most Powered sharp melee weapons(except PoweredShortSword) more efficient than PoweredMaul。(In "Combat Extended Melee" Mod) when fighting Centipede(aim head part mode).)    
     
-  PoweredLongSword vs PoweredZweihander:    
+  Killing efficiency: PoweredLongSword vs PoweredZweihander:    
   Fight Centipede ratio: 7.5(Longsword) /10(Zweilander Win)    
   Fight Scyther ratio: 3(Longsword Win) / 2     
-  Fight Pirate(half of them have ArmoredVest) ratio: (Longsword Win)    
+  Fight Pirate(half of them have ArmoredVest(Like what may happen in late-game pirate raids)) ratio: (Longsword Win)    
   Fight Militor ratio: 1(PoweredShortSword; aim head) / 1.05(Longsword; aim head) / 0.9(Zweihander; aim body)    
   </span>    
 
@@ -171,26 +171,26 @@
 
 ## Acknowledgement: (In no particular order)    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
- - **[!! Combat Extended Melee - Inspired me to some extent !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=1924933379)**    
+ - **[!! Combat Extended Melee - Inspired us to some extent !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=1924933379)**    
 
 ## Authors:
  - SawedoffShotgun
 
 ## License:
   Rimworld is owned by Tynan Sylvester.    
-  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">SS_CC BY-NC-ND 4.0</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:chaconnejay@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
-## Links/Contacts: (If you have any questions, please Email me.)
+## Links/Contacts: (If you have any questions, please Email us.)
  Contact Information:    
-  [Email(mainly): youngturksfree@outlook.com](mailto:youngturksfree@outlook.com)    
-  [Github: https://github.com/AlohaOe114](https://github.com/AlohaOe114)    
+  [Email(mainly): chaconnejay@outlook.com](mailto:chaconnejay@outlook.com)    
+  [Github: https://github.com/SawedoffShotgun114](https://github.com/SawedoffShotgun114)    
  Ludeon: SawedoffShotgun    
 
-## SeeAlso:(Other mods/pieces made by me)
+## SeeAlso:(Other mods/pieces made by us)
  [SawedoffShotgun's Gun_Misc]()    
  [SawedoffShotgun's Mechanoid_Combat]()    
 
-## If you love my mods    
+## If you love our mods    
 (may motivate the author work faster)    
 ~~[Ko-fi me if you like]~~     
 ~~[Afdian]~~    
